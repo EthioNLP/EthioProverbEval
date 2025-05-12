@@ -1,0 +1,6 @@
+dataset_name: eng_fill_blank
+include: ethio_proverb_eval_common_yaml
+task: eng_fill_1
+doc_to_text: !function utils.doc_to_text_eng_t1
+doc_to_target: "{{['A', 'B', 'C', 'D'].index(Answer)}}"
+doc_to_choice: !function utils.doc_to_choice

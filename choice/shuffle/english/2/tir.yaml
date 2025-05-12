@@ -1,0 +1,6 @@
+dataset_name: tir_choice_english
+include: ethio_proverb_eval_common_yaml
+task: tir_choice_english_2
+doc_to_text: !function utils.doc_to_text_tir_t1
+doc_to_target: "{{['A', 'B', 'C', 'D'].index(Answer_Letter)}}"
+doc_to_choice: !function utils.doc_to_choice

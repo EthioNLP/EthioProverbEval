@@ -1,0 +1,12 @@
+output_type: generate_until
+test_split: native
+metric_list:
+  - metric: bleu
+  - metric: ter
+  - metric: chrf
+generation_kwargs:
+  do_sample: false
+  temperature: 0.0
+repeats: 1
+metadata:
+  version: 1.0

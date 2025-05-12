@@ -1,0 +1,5 @@
+dataset_path: israel/OXgXd3n0CSIoxZf
+output_type: generate_until
+test_split: english_1
+metadata:
+  version: 1.0

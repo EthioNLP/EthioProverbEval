@@ -1,0 +1,6 @@
+dataset_name: orm_choice_native
+include: ethio_proverb_eval_common_yaml
+task: orm_choice_native_4
+doc_to_text: !function utils.doc_to_text_orm_t1
+doc_to_target: "{{['A', 'B', 'C', 'D'].index(Answer_Letter)}}"
+doc_to_choice: !function utils.doc_to_choice

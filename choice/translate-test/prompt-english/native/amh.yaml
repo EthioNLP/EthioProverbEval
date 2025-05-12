@@ -1,0 +1,6 @@
+dataset_name: tranalste_amh_choice_native
+include: ethio_proverb_eval_common_yaml
+task: tranalste_amh_choice_english_p1_native
+doc_to_text: !function utils.doc_to_text_amh_t1
+doc_to_target: "{{['A', 'B', 'C', 'D'].index(Answer_Letter)}}"
+doc_to_choice: !function utils.doc_to_choice
