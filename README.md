@@ -1,4 +1,4 @@
-# EthioProverbEval: LLM Evaluation for Low-Resource Language Understanding
+# ProverbEval: LLM Evaluation for Low-Resource Language Understanding
 
 This repository contains the YAML configuration files for the **ProverbEval** benchmark, designed for evaluating Large Language Models (LLMs) on their understanding of proverbs in low-resource Ethiopian languages (Amharic, Afaan Oromo, Tigrinya, Ge'ez) and English. The evaluations are intended to be run using the [EleutherAI Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness).
 
